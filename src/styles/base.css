@@ -1,0 +1,86 @@
+:root {
+  color-scheme: light;
+  color: #202722;
+  background: #f4f3ee;
+  font-family: "Aptos", "Segoe UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --lux-ink: #202722;
+  --lux-forest: #183c33;
+  --lux-forest-light: #28574a;
+  --lux-paper: #f4f3ee;
+  --lux-white: #fffefa;
+  --lux-muted: #6d756f;
+  --lux-line: #d9ddd6;
+  --lux-brass: #ad8b55;
+  --lux-red: #81463d;
+  --lux-serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --lux-sans: "Aptos", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background: var(--lux-paper);
+  color: var(--lux-ink);
+  font-family: var(--lux-sans);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--lux-ink);
+  font-family: var(--lux-serif);
+  font-weight: 500;
+  line-height: 1.08;
+}
+
+::selection {
+  background: #d9c9a8;
+  color: #17251f;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Sebastian Motors</string>
+    <string name="title_activity_main">Sebastian Motors</string>
+    <string name="package_name">com.sebastianmotors.app</string>
+    <string name="custom_url_scheme">com.sebastianmotors.app</string>
+</resources>

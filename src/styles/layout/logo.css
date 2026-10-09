@@ -1,0 +1,47 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.logo__mark {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  place-items: center;
+  border: 1px solid var(--lux-brass);
+  background: var(--lux-forest);
+  color: var(--lux-white);
+  font-family: var(--lux-serif);
+  font-size: 27px;
+  line-height: 1;
+}
+
+.logo__wordmark {
+  display: grid;
+  color: var(--lux-forest);
+  line-height: 1.05;
+}
+
+.logo__name {
+  font-family: var(--lux-serif);
+  font-size: 19px;
+}
+
+.logo__descriptor {
+  margin-top: 4px;
+  color: var(--lux-brass);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer .logo__mark {
+  background: transparent;
+  color: #d3b982;
+}
+
+.footer .logo__wordmark {
+  color: #e9e9df;
+}
